@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javi.ExplorerTreeView", "Javi.ExplorerTreeView\Javi.ExplorerTreeView.csproj", "{40107C7D-9B2C-4F9F-B7CF-4CAE3B98C2C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF023DCE-CA70-4CD3-B691-9BE9AACABB58}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{D98674E9-6651-404B-971B-617CB2F243EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,10 @@ Global
 		{40107C7D-9B2C-4F9F-B7CF-4CAE3B98C2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40107C7D-9B2C-4F9F-B7CF-4CAE3B98C2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40107C7D-9B2C-4F9F-B7CF-4CAE3B98C2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98674E9-6651-404B-971B-617CB2F243EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98674E9-6651-404B-971B-617CB2F243EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98674E9-6651-404B-971B-617CB2F243EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98674E9-6651-404B-971B-617CB2F243EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
