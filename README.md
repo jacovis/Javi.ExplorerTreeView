@@ -15,7 +15,7 @@ The usercontrol inherits from the standard WPF treeview and can be used and styl
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Demo application](#demo)
+- [Demo application](#demo-application)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -40,7 +40,7 @@ Alternatively search on [NuGet Javi.ExplorerTreeView](https://www.nuget.org/pack
 
 ## Usage
 
-See the [demo application](#demo).
+See the [demo application](#demo-application).
 
 ## Demo application
 
