@@ -2,7 +2,7 @@
 
 # 
 
-# <img align="center" src="./PackageIcon.png">  Javi.MediaInfo
+# <img align="center" src="./PackageIcon.png">  Javi.ExplorerTreeView
 
 This package provides a Windows Explorer application navigation like usercontrol for WPF. 
 The usercontrol inherits from the standard WPF treeview and can be used and styled as a basic treeview.
