@@ -4,12 +4,13 @@
 
 # <img align="center" src="./PackageIcon.png">  Javi.MediaInfo
 
-This package provides a Windows Explorer application navigation like usercontrol for WPF.
+This package provides a Windows Explorer application navigation like usercontrol for WPF. 
+The usercontrol inherits from the standard WPF treeview and can be used and styled as a basic treeview.
 
-![Desktop sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/desktop.png "desktop")
-![This PC sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/thispc.png "thispc")
-![MyComputer sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/mycomputer.png "mycomputer")
-![Videos special folder sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/videos.png "videos")
+![Desktop sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/desktop.png "Desktop sample")
+![This PC sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/thispc.png "This PC sample")
+![MyComputer sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/mycomputer.png "MyComputer sample")
+![Videos special folder sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/videos.png "Videos special folder sample")
 
 - [Features](#features)
 - [Getting Started](#getting-started)
