@@ -24,8 +24,10 @@ echo Push Nuget package
 nuget push .\*.nupkg -Source https://api.nuget.org/v3/index.json
 IF %ERRORLEVEL% NEQ 0 GOTO err
 
-@exit /B 0
+
+pause
+exit /B 0
 
 :err
-@PAUSE
-@exit /B 1
+PAUSE
+exit /B 1

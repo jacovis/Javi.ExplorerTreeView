@@ -1,4 +1,4 @@
-rem @echo off
+@echo off
 CLS
 
 REM https://stackoverflow.com/questions/5669765/build-visual-studio-project-through-the-command-line
