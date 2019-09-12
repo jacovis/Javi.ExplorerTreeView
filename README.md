@@ -57,7 +57,7 @@ This project is licensed under the [MIT License](https://github.com/jacovis/Javi
 Based on https://blog.khmylov.com/2010/11/18/wpf-explorer-treeview-with-selectedpath-binding/ <br>
 which inherits from https://www.codeproject.com/Articles/21248/A-Simple-WPF-Explorer-Tree <br>
 see also https://joshsmithonwpf.wordpress.com/2007/11/09/reaction-to-a-simple-wpf-explorer-tree/ <br>
-[Dirkster99](https://www.nuget.org/profiles/Dirkster99) for his package [Dirkster.WSF](https://www.nuget.org/packages/Dirkster.WSF/)
+Uses [Dirkster99's](https://www.nuget.org/profiles/Dirkster99) package [Dirkster.WSF](https://www.nuget.org/packages/Dirkster.WSF/)
 providing access to the Windows Shell. 
 This package is used to interact with the windows shell in order to obtain all special folders. However, the user of 
 this ExplorerTreeView usercontrol does need to known anything or have to interact with Dirkster's package.
