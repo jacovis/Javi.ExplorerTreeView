@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javi.ExplorerTreeView", "Ja
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF023DCE-CA70-4CD3-B691-9BE9AACABB58}"
 	ProjectSection(SolutionItems) = preProject
+		Javi.ExplorerTreeView.nuspec = Javi.ExplorerTreeView.nuspec
 		LICENSE.md = LICENSE.md
 		README.md = README.md
 	EndProjectSection

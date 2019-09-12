@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>Javi.ExplorerTreeView</id>
+        <version>1.0.1</version>
+        <title>Explorer Treeview</title>
+        <authors>Jaco Vis</authors>
+        <owners>Jaco Vis</owners>
+        <license type="file">LICENSE.md</license>
+        <projectUrl>https://github.com/jacovis/Javi.ExplorerTreeView</projectUrl>
+        <iconUrl>https://github.com/jacovis/Javi.ExplorerTreeView/raw/master/PackageIcon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package provides a Windows Explorer application navigation like usercontrol for WPF. The usercontrol inherits from the standard WPF treeview and can be styled like a basic treeview.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright © Javi 2019</copyright>
+        <tags>treeview;C#;wpf;windows;explorer;navigation;shell;shellitem</tags>
+        <dependencies>
+            <dependency id="Dirkster.WSF" version="1.1.1"/>
+        </dependencies>
+        <summary>Javi.ExplorerTreeView provides a WPF application with a Windows Explorer navigation usercontrol.</summary>
+    </metadata>
+    <files>
+        <file src=".\README.md" target="" />
+        <file src=".\LICENSE.md" target="" />
+        <file src="Javi.ExplorerTreeView\bin\Release\Javi.ExplorerTreeView.dll" target="lib\net4" />
+        <file src="Javi.ExplorerTreeView\bin\Release\Javi.ExplorerTreeView.pdb" target="lib\net4" />
+    </files>
+</package>

@@ -5,7 +5,7 @@
 # <img align="center" src="./PackageIcon.png">  Javi.ExplorerTreeView
 
 This package provides a Windows Explorer application navigation like usercontrol for WPF. 
-The usercontrol inherits from the standard WPF treeview and can be used and styled as a basic treeview.
+The usercontrol inherits from the standard WPF treeview and can be styled like a basic treeview.
 
 ![Desktop sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/desktop.png "Desktop sample")
 ![This PC sample](https://github.com/jacovis/Javi.ExplorerTreeView/blob/master/Demo/samples/thispc.png "This PC sample")
@@ -20,9 +20,9 @@ The usercontrol inherits from the standard WPF treeview and can be used and styl
 - [Acknowledgments](#acknowledgments)
 
 ## Features
-- provides a Windows Explorer navigation pane alike treeview usercontrol for WPF
-- targets .NET Full Framework 4
-- supports lazy loading of treeview items
+- Provides a Windows Explorer navigation pane alike treeview usercontrol for WPF
+- Targets .NET Full Framework 4
+- Supports lazy loading of treeview items
 - Dependency property to get the selected folder
 - Dependency property to set the root of the treeview
 - Dependency property to set if the tree items should be sorted
@@ -54,6 +54,9 @@ This project is licensed under the [MIT License](https://github.com/jacovis/Javi
 
 ## Acknowledgments
 
+Based on https://blog.khmylov.com/2010/11/18/wpf-explorer-treeview-with-selectedpath-binding/ <br>
+which inherits from https://www.codeproject.com/Articles/21248/A-Simple-WPF-Explorer-Tree <br>
+see also https://joshsmithonwpf.wordpress.com/2007/11/09/reaction-to-a-simple-wpf-explorer-tree/ <br>
 [Dirkster99](https://www.nuget.org/profiles/Dirkster99) for his package [Dirkster.WSF](https://www.nuget.org/packages/Dirkster.WSF/)
 providing access to the Windows Shell. 
 This package is used to interact with the windows shell in order to obtain all special folders. However, the user of 
