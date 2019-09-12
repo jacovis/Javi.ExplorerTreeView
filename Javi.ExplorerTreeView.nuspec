@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <id>Javi.ExplorerTreeView</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <title>Explorer Treeview</title>
         <authors>Jaco Vis</authors>
         <owners>Jaco Vis</owners>
@@ -10,7 +10,7 @@
         <projectUrl>https://github.com/jacovis/Javi.ExplorerTreeView</projectUrl>
         <iconUrl>https://github.com/jacovis/Javi.ExplorerTreeView/raw/master/PackageIcon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>This package provides a Windows Explorer application navigation like usercontrol for WPF. The usercontrol inherits from the standard WPF treeview and can be styled like a basic treeview.</description>
+        <description>This package provides a Windows Explorer application navigation like usercontrol for WPF. The usercontrol inherits from the standard WPF treeview and can be styled like a basic treeview. Follow the link to the project site which leads to the github repository for this package to see some sample screens.</description>
         <releaseNotes></releaseNotes>
         <copyright>Copyright © Javi 2019</copyright>
         <tags>treeview;C#;wpf;windows;explorer;navigation;shell;shellitem</tags>
