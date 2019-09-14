@@ -1,6 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Javi.ExplorerTreeView;
 using System.Windows;
-using Javi.ExplorerTreeView;
 
 namespace Demo
 {

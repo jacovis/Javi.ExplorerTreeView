@@ -48,7 +48,7 @@ namespace Demo
             }
         }
 
-        private string selectedFolders;
+        private string selectedFolder;
         /// <summary>
         /// The selected folder.
         /// </summary>
@@ -56,18 +56,16 @@ namespace Demo
         {
             get
             {
-                return this.selectedFolders;
+                return this.selectedFolder;
             }
             set
             {
-                if (value != this.selectedFolders)
+                if (value != this.selectedFolder)
                 {
-                    this.selectedFolders = value;
+                    this.selectedFolder = value;
                     NotifyPropertyChanged(nameof(SelectedFolder));
                 }
             }
         }
-
-
     }
 }
