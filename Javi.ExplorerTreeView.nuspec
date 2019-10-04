@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <id>Javi.ExplorerTreeView</id>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <title>Explorer Treeview</title>
         <authors>Jaco Vis</authors>
         <owners>Jaco Vis</owners>

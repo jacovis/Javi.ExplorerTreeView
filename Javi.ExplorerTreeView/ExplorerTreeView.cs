@@ -12,6 +12,7 @@ namespace Javi.ExplorerTreeView
     using System.Text;
     using System.Windows;
     using System.Windows.Controls;
+    using System.Windows.Input;
     using WSF;
     using WSF.Enums;
     using WSF.IDs;
@@ -82,8 +83,8 @@ namespace Javi.ExplorerTreeView
             }
         }
         public static readonly DependencyProperty RootProperty = DependencyProperty
-            .Register("Root", typeof(ExplorerTreeViewRootEnum), typeof(ExplorerTreeView), 
-                      new UIPropertyMetadata(ExplorerTreeViewRootEnum.Desktop, 
+            .Register("Root", typeof(ExplorerTreeViewRootEnum), typeof(ExplorerTreeView),
+                      new UIPropertyMetadata(ExplorerTreeViewRootEnum.Desktop,
                                              (o, e) => ((ExplorerTreeView)o).InitExplorer()));
         #endregion
 
@@ -240,25 +241,33 @@ namespace Javi.ExplorerTreeView
 
         private void IterateFolders(IDirectoryBrowser browser, ItemCollection items)
         {
+            Mouse.OverrideCursor = Cursors.Wait;
             try
             {
-                var childItems = new List<IDirectoryBrowser>();
-                foreach (var item in Browser.GetChildItems(browser.PathShell))
+                try
                 {
-                    childItems.Add(item);
+                    var childItems = new List<IDirectoryBrowser>();
+                    foreach (var item in Browser.GetChildItems(browser.PathShell))
+                    {
+                        childItems.Add(item);
+                    }
+                    if (this.Sort && browser.SpecialPathId != KF_IID.ID_FOLDERID_Desktop)
+                    {
+                        childItems.Sort((x, y) => this.SortIDirectoryBrowser(x, y));
+                    }
+                    foreach (var item in childItems)
+                    {
+                        items.Add(CreateItem(item, item.Label));
+                    }
                 }
-                if (this.Sort && browser.SpecialPathId != KF_IID.ID_FOLDERID_Desktop)
+                catch (Exception ex)
                 {
-                    childItems.Sort((x, y) => this.SortIDirectoryBrowser(x, y));
-                }
-                foreach (var item in childItems)
-                {
-                    items.Add(CreateItem(item, item.Label));
+                    InvokeExplorerError(new ExplorerTreeViewErrorEventArgs(ex));
                 }
             }
-            catch (Exception ex)
+            finally
             {
-                InvokeExplorerError(new ExplorerTreeViewErrorEventArgs(ex));
+                Mouse.OverrideCursor = null;
             }
         }
 
