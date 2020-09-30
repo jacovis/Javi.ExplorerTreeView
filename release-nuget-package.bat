@@ -3,7 +3,7 @@ cls
 
 rem ** Build solution
 echo Build solution
-call releasebuild.bat
+rem call releasebuild.bat
 
 IF %ERRORLEVEL% NEQ 0 GOTO err
 

@@ -8,7 +8,7 @@ REM set msBuildDir=%WINDIR%\Microsoft.NET\Framework\v3.5
 REM set msBuildDir=%WINDIR%\Microsoft.NET\Framework\v4.0.30319
 REM set msBuildDir=C:\Program Files (x86)\MSBuild\12.0\Bin
 REM set msBuildDir=C:\Program Files (x86)\MSBuild\14.0\Bin
-set msBuildDir=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin
+set msBuildDir=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin
 
 REM change into script storage directory
 cd %~dp0
