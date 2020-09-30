@@ -60,4 +60,4 @@ see also https://joshsmithonwpf.wordpress.com/2007/11/09/reaction-to-a-simple-wp
 Uses [Dirkster99's](https://www.nuget.org/profiles/Dirkster99) package [Dirkster.WSF](https://www.nuget.org/packages/Dirkster.WSF/)
 providing access to the Windows Shell. 
 This package is used to interact with the windows shell in order to obtain all special folders. However, the user of 
-this ExplorerTreeView usercontrol does need to known anything about or have to interact with Dirkster's package.
+this ExplorerTreeView usercontrol does not need to known anything about or have to interact with Dirkster's package.
